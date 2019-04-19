@@ -2,4 +2,4 @@
 Not just a blog. A DSPlog (naturally).
 
 ## Deploying
-`gsutil -m rsync -edru piublic/ gs://www.dsp-ln.com`
+`gsutil -m rsync -edru public/ gs://www.dsp-ln.com`
