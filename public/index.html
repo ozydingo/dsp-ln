@@ -2,24 +2,47 @@
 <html lang="en">
   <head>
     <title>dsp-ln</title>
+    <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <h1>DSP-ln</h1>
-    <i>Not just a blog, a DSPlog (naturally)</i>
+    <header>
+      <h1>DSP-<span class="ln">ln</span></h1>
+      <div class="subtitle">
+        Not just a blog, a DSPlog (naturally)
+      </div>
+    </header>
     <hr>
-    <p>
-      <small>
+    <main>
+      <h2> Posts </h2>
+      <div class="info">
         The following posts are Colaboratory notebooks that open in a new window
-      </small>
-    </p>
-    <div>
-      <a target="_blank" href="https://colab.research.google.com/drive/16TanjzhmyM_HqGk4J5fZ_1_dNhEqQXUW">Aliasing</a>
-    </div>
-    <div>
-      <a target="_blank" href="https://colab.research.google.com/drive/17tFtgwUY4kwJgV4rGCj4M-IcfYj7SDe4">FFT Interpolation</a>
-    </div>
-    <div>
-      <a target="_blank" href="https://colab.research.google.com/drive/1FppVOUu4AbK9gZIDUztdFuFQNGS_MEt_#scrollTo=O6AwmQcxyIHE">Non-ideal filtering</a>
-    </div>
+      </div>
+      <div class="post-list">
+        <div class="post-list-item">
+          <div class="post-list-title">
+            <a target="_blank" href="https://colab.research.google.com/drive/16TanjzhmyM_HqGk4J5fZ_1_dNhEqQXUW">Aliasing</a>
+          </div>
+          <div class="post-list-description">
+            Developing an intuitive understanding of what happens when Nyquist gets mad
+          </div>
+        </div>
+        <div class="post-list-item">
+          <div class="post-list-title">
+            <a target="_blank" href="https://colab.research.google.com/drive/17tFtgwUY4kwJgV4rGCj4M-IcfYj7SDe4">FFT Interpolation</a>
+          </div>
+          <div class="post-list-description">
+            A dead-simple method to perform band-limited interpolation using the FFT and IFFT algorithms
+          </div>
+        </div>
+        <div class="post-list-item">
+          <div class="post-list-title">
+            <a target="_blank" href="https://colab.research.google.com/drive/1FppVOUu4AbK9gZIDUztdFuFQNGS_MEt_#scrollTo=O6AwmQcxyIHE">Non-ideal filtering</a>
+          </div>
+          <div class="post-list-description">
+            This is not the low-pass filter you're looking for ... a guide to understanding why multiplying by zeros in the frequency domain may not do what you expect
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

@@ -1,0 +1,60 @@
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Trebuchet MS", trebuchet, tahoma, arial, verdana, sans-serif;
+}
+
+a {
+  color: #005;
+}
+
+header {
+  background-color: #080a36;
+  color: #ddd;
+  padding: 1em;
+}
+
+main {
+  padding: 1em;
+}
+
+h1 {
+  margin-bottom: 3px;
+  font-weight: normal;
+}
+
+.ln {
+  font-style: italic;
+}
+
+h2 {
+  font-weight: normal;
+  padding-bottom: 4px;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+.info {
+  font-size: small;
+  font-style: italic;
+  color: #555;
+}
+
+.post-list {
+  margin: 5px;
+}
+
+.post-list-item {
+  margin-bottom: 0.8em;
+}
+
+.post-list-description {
+  color: #555;
+  font-size: 0.85em;
+}
